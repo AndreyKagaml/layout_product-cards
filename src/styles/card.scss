@@ -11,7 +11,7 @@
     margin: 0 auto 40px;
     height: 134px;
     width: 160px;
-    background-image: url('./images/imac.jpeg');
+    background-image: url('../images/imac.jpeg');
     background-size: contain;
     background-repeat: no-repeat;
     padding-right: 2px;
@@ -61,6 +61,21 @@
     align-items: center;
     margin-bottom: 16px;
     height: 18px;
+
+    &-text {
+      color: #616070;
+      font-size: 12px;
+      margin: 0;
+      display: block;
+    }
+
+    &-count {
+      color: #060b35;
+      font-size: 16px;
+      margin: 0;
+      display: block;
+      font-weight: 700;
+    }
   }
 
   &__button {
@@ -83,19 +98,4 @@
     background-color: #fff;
     color: $button-color;
   }
-}
-
-.price__text {
-  color: #616070;
-  font-size: 12px;
-  margin: 0;
-  display: block;
-}
-
-.price__count {
-  color: #060b35;
-  font-size: 16px;
-  margin: 0;
-  display: block;
-  font-weight: 700;
 }
